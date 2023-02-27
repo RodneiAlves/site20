@@ -75,12 +75,10 @@ div.a{
 main{
 background-color: white;
 max-width: 800px;
-min-width: 100%;
 border-bottom-right-radius: 10px;
 border-bottom-left-radius: 10px;
 margin: auto;
 box-shadow: 5px 5px 5px green;
-width: 100%;
  
 }
 
@@ -141,6 +139,9 @@ ul{
 
 }
 @media screen and (max-width: 360px){
+ *{ box-sizing: border-box;
+
+}
 
     footer{
        width: 100%;
@@ -153,7 +154,7 @@ main{
 }
 body{
 width: 100%;
-margin: 0%;
+
 }
 
 }
