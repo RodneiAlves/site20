@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+
+body{
+ background-color:rgba(0, 255, 0, 0.493);
+
+
+
+
+}
+header{
+   background-image:linear-gradient(to bottom,green,rgba(13, 53, 13, 0.959));
+  
+ 
+
+}
+h1{
+font-family: Arial, Helvetica, sans-serif ;
+font-weight: bolder;
+font-size:48px;
+font-style: italic;
+margin-bottom: 10px;
+text-align: center;
+padding-top: 10px;
+}
+header >h2{
+    padding-bottom: 10px;
+}
+
+header >p{
+
+text-justify: auto;
+text-indent: 1em;
+width:97%;
+color:white;margin-left: 10px;
+padding-bottom: 10px;
+
+
+}
+
+a:visited{
+color:black;
+}
+
+a:hover{
+color: blue;
+text-decoration: underline;
+
+}
+li::after{
+content:"[link]" ;
+color: blue;
+
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+a{
+    background-color:green;
+    text-decoration: none;
+    border-color: black;
+    border:solid;
+    border-radius: 10px;
+    
+
+   
+}
+div.a{
+ text-align: right;
+ margin-right: 20px;
+ padding-bottom: 20px;
+}
+main{
+background-color: white;
+max-width: 800px;
+min-width: 100%;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;
+margin: auto;
+box-shadow: 5px 5px 5px green;
+width: 100%;
+ 
+}
+
+
+main >div.video{
+    background-color:rgba(3, 54, 15, 0.993);
+    margin-bottom: 50px;
+    margin: auto;
+    padding: 20px;
+    padding-bottom: 55%;
+    position: relative;
+
+
+   
+
+}
+
+main>div.video>iframe{
+    position:absolute;
+    top:5% ;
+    left:5% ;
+    width:90% ;
+    height:90% ;
+
+}
+ul{
+    list-style-position: inside;
+    margin-left: 10px;
+    margin-top: 10px;
+ 
+}
+li{
+    margin-bottom: 5px;
+}
+li>a::after {
+    content:'\1F517';
+}
+footer{
+    color: black;
+    font-weight: bold;
+   text-align:center ;
+   background-color:green;
+   border-radius: 10px;
+  margin-top: 20px;
+}
+@media screen and (max-width: 780px){
+*{ box-sizing: border-box;
+
+}
+main{
+    width: 100%;
+}
+
+ul{
+  width: 100%;
+
+}
+
+}
+@media screen and (max-width: 360px){
+
+    footer{
+       width: 100%;
+       margin: auto;
+    }
+
+main{
+    width: 100%;
+    background-color: green;
+}
+body{
+width: 100%;
+margin: 0%;
+}
+
+}
+
+    
+
